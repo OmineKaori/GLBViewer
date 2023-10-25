@@ -1,0 +1,8 @@
+{
+    "output_folder": "Assets/Pixyz/_output/",
+    "optimization":  "True",
+    "extensions":
+    [
+        ".glb"
+    ]
+}
