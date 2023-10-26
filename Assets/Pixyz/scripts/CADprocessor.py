@@ -45,5 +45,4 @@ def executeScenarioProcessor(input_file, output_folder, extensions, optimization
         print(l)
     print(p.stdout.read())
 
-if __name__ == "__main__":
-    main()
+main()

@@ -7,7 +7,7 @@ using System;
 
 public class LoadAsset : MonoBehaviour
 {
-    private string targetDirectory = Path.Combine(Application.dataPath, "_output");
+    private string targetDirectory = Path.Combine(Application.dataPath, "Pixyz/_output");
     public GameObject buttonPrefab;
     public Transform contentPanel;
     public TMP_Text logText;

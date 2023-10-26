@@ -6,7 +6,7 @@ using UnityEditor.Scripting.Python;
 using Unity.Plastic.Newtonsoft.Json;
 using System.IO;
 
-public class ConvertCAD : EditorWindow
+public class CADProcessor : EditorWindow
 {
     [MenuItem("Pixyz/Import CAD")]
     static void RunPython()
@@ -18,9 +18,8 @@ public class ConvertCAD : EditorWindow
             string jsonData = JsonConvert.SerializeObject(data);
             string jsonFilePath = Path.Combine(Application.dataPath, "Pixyz/input_file.json");
             File.WriteAllText(jsonFilePath, jsonData);
-            Debug.Log("Read input file: " + path);
 
-            PythonRunner.RunFile($"{Application.dataPath}/Pixyz/scripts/watcher.py");
+            PythonRunner.RunFile($"{Application.dataPath}/Pixyz/scripts/CADProcessor.py");
         }
     }
 }
