@@ -4,6 +4,8 @@ This sample project demonstrates how to import CAD files into Unity using the Pi
 
 [![Watch the video](https://img.youtube.com/vi/Z3jzqI82Qfs/hqdefault.jpg)](https://youtu.be/Z3jzqI82Qfs)
 
+[Watch the video on YouTube](https://youtu.be/Z3jzqI82Qfs)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
